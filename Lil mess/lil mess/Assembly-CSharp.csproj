@@ -63,6 +63,7 @@
     <Compile Include="Assets\fps.cs" />
     <Compile Include="Assets\models\RainMaker\Prefab\RainCollision.cs" />
     <Compile Include="Assets\models\RainMaker\Prefab\RainScript.cs" />
+    <Compile Include="Assets\pickup.cs" />
     <None Include="Assets\models\RainMaker\Prefab\RainShader.shader" />
     <None Include="Assets\models\RainMaker\Prefab\Readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">

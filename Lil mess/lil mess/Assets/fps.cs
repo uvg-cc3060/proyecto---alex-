@@ -24,8 +24,11 @@ public class fps : MonoBehaviour
         h = horizontalSpeed * Input.GetAxis("Mouse X");
         v = verticalSpeed * Input.GetAxis("Mouse Y");
 
-        transform.Rotate(0, h, 0);
-        FPSCamera.transform.Rotate(v, 0, 0);
+        if (Input.GetKey(KeyCode.Q))
+        {
+            transform.Rotate(0, h, 0);
+            FPSCamera.transform.Rotate(v, 0, 0);
+        }
 
         if (Input.GetKey(KeyCode.W)){
             transform.Translate(0, 0, 0.1f);
